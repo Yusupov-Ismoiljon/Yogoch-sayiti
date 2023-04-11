@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Интернет-магазин пиломатериалов</title>
   <link rel="stylesheet" href="./dist/output.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </head>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
-<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 
 <body class="font-sans">
 
@@ -60,13 +61,13 @@
   </div>
 
   <!-- header -->
-  <header class="shadow-lg mb-7">
+  <header class="shadow-lg mb-5">
     <div class="w-full max-w-maxw mx-auto px-5 flex items-center justify-between py-3">
       <p class="font-medium text-xs leading-[14px] text-address_black">grandlesmarket@mail.ru</p>
       <div>
         <ul class="flex items-center">
           <li class="mr-11">
-            <a class="font-semibold text-[13px] leading-[13px] select-country  uppercase" href="#">Каталог</a>
+            <a class="font-semibold text-[13px] leading-[13px] select-country  uppercase" href="./catalog.html">Каталог</a>
           </li>
           <li class="mr-16">
             <a class="font-semibold text-[13px] leading-[13px] select-country  uppercase" href="#">Покупателю</a>
@@ -100,8 +101,9 @@
             <a href="#">
               <img class="relative -z-50" src="./img/arava.svg" alt="">
             </a>
-            <div class="w-4 h-4 font-normal text-[10px] leading-[10px] p-1 bg-bg_f9 rounded-full -mt-8 ml-3 z-20">2
-            </div>
+            <div
+              class="w-4 h-4 font-normal text-[10px] leading-[10px] text-center justify-center pb-1 pt-0.5 px-0.5 bg-bg_f9 rounded-full -mt-8 ml-3 z-20">
+              2</div>
           </li>
         </ul>
       </div>
@@ -481,35 +483,52 @@
       </div>
     </section>
 
-    <section class="pt-16 pb-14">
-      <div>
-        <h2 class="font-bold text-[34px] leading-[44.2px] text-center mb-[59px] mr-2.5">Как мы работаем</h2>
-        <div class="flex">
-          <div class="relative w-[100px] h-[100px] text-center bg-grey_bg rounded-full p-6 mr-2.5">
-            <img src="./img/01.svg" alt="">
-            <div class="absolute w-[30px] h-[30px] rounded-full bg-white -mt-[70px] right-0 p-1">01</div>
-          </div>
-          <img class="mr-2.5" src="./img/tekkiz.svg" alt="" aria-hidden="true">
-          <div>
-            <div class="relative w-[100px] h-[100px] items-center bg-grey_bg rounded-full p-6 mr-2.5">
-              <img src="./img/02.svg" alt="">
-              <div class="absolute w-[30px] h-[30px] rounded-full bg-white -mt-[70px] right-0 p-1">02</div>
+    <section class="py-14">
+      <div class="containerb">
+        <h2 class="font-bold text-[34px] leading-[44px] text-[#2A1A01] mb-12 text-center">Как мы работаем</h2>
+        <div class="flex items-start">
+          <!-- card 1 -->
+          <div class="flex flex-col justify-center items-center">
+            <div class="w-[100px] h-[100px] rounded-full flex justify-center items-center bg-grey-bg mb-5">
+              <img src="./img/01.svg" alt="naushnik opa">
             </div>
+            <p class="text-center text-base leading-5 text-black-222 ">Оставляете заявку на или по телефону</p>
           </div>
-          <img class="mr-2.5" src="./img/tekkiz.svg" alt="" aria-hidden="true">
-          <div class="relative w-[100px] h-[100px] text-center bg-grey_bg rounded-full p-6 mr-2.5">
-            <img src="./img/03.svg" alt="">
-            <div class="absolute w-[30px] h-[30px] rounded-full bg-white -mt-[70px] right-0 p-1">03</div>
+          <img class="mt-10 w-[150px]" src="./img/tekkiz.svg" alt="arrow_2">
+
+          <!-- card 2 -->
+          <div class="flex flex-col justify-center items-center">
+            <div class="w-[100px] h-[100px] rounded-full flex justify-center items-center bg-grey-bg mb-5">
+              <img src="./img/02.svg" alt="naushnik opa">
+            </div>
+            <p class="text-center text-base leading-5 text-black-222 ">Оставляете заявку на или по телефону</p>
           </div>
-          <img class="mr-2.5" src="./img/tekkiz.svg" alt="" aria-hidden="true">
-          <div class="relative w-[100px] h-[100px] text-center bg-grey_bg rounded-full p-6 mr-2.5">
-            <img src="./img/04.svg" alt="">
-            <div class="absolute w-[30px] h-[30px] rounded-full bg-white -mt-[70px] right-0 p-1">04</div>
+          <img class="mt-10 w-[150px]" src="./img/tekkiz.svg" alt="arrow_2">
+
+          <!-- card 3 -->
+          <div class="flex flex-col justify-center items-center">
+            <div class="w-[100px] h-[100px] rounded-full flex justify-center items-center bg-grey-bg mb-5">
+              <img src="./img/03.svg" alt="naushnik opa">
+            </div>
+            <p class="text-center text-base leading-5 text-black-222 ">Оставляете заявку на или по телефону</p>
           </div>
-          <img class="mr-2.5" src="./img/tekkiz.svg" alt="" aria-hidden="true">
-          <div class="relative w-[100px] h-[100px] text-center bg-grey_bg rounded-full p-6 mr-2.5">
-            <img src="./img/05.svg" alt="">
-            <div class="absolute w-[30px] h-[30px] rounded-full bg-white -mt-[70px] right-0 p-1">05</div>
+          <img class="mt-10 w-[150px]" src="./img/tekkiz.svg" alt="arrow_2">
+
+          <!-- card 4 -->
+          <div class="flex flex-col justify-center items-center">
+            <div class="w-[100px] h-[100px] rounded-full flex justify-center items-center bg-grey-bg mb-5">
+              <img src="./img/04.svg" alt="naushnik opa">
+            </div>
+            <p class="text-center text-base leading-5 text-black-222 ">Оставляете заявку на или по телефону</p>
+          </div>
+          <img class="mt-10 w-[150px]" src="./img/tekkiz.svg" alt="arrow_2">
+
+          <!-- card 5 -->
+          <div class="flex justify-center items-center flex-col">
+            <div class="w-[100px] h-[100px] rounded-full flex justify-center items-center bg-grey-bg mb-5">
+              <img src="./img/05.svg" alt="naushnik opa">
+            </div>
+            <p class="text-center text-base leading-5 text-black-222 ">Оставляете заявку на или по телефону</p>
           </div>
         </div>
       </div>
@@ -611,97 +630,176 @@
     </div>
   </div>
 
-  <!-- footer -->
-  <footer class="w-full max-w-maxw mx-auto px-5 pb-5 pt-9">
-    <!-- top -->
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 mb-12">
-      <!-- div-1 -->
-      <div class="flex">
-        <div class="mr-12">
-          <h2 class="font-bold text-xl leading-5 mb-7">Каталог</h2>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Доска</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Брус</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Брусок</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Блокхаус</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Вагонка</a>
-          <a class="block font-normal text-base leading-4" href="#">Имтиация бруса</a>
-        </div>
-        <div class="">
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Половая доска</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Клееный пиломатериал</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Фанера</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Погонаж</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Лиственница</a>
-          <a class="block font-normal text-base leading-4 mb-6" href="#">Стройматериалы</a>
-        </div>
-      </div>
-      <!-- div-2 -->
-      <div>
-        <h2 class="block font-bold text-xl leading-5 mb-7">Покапателям</h2>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Доставка</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Оплата</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Гарантии качества</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Прайс-лист</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Акции</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Калькулятор</a>
-      </div>
-      <!-- div-3 -->
-      <div>
-        <h2 class="block font-bold text-xl leading-5 mb-7">О компании</h2>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Статьи</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">О компании</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Производство</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Новости</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Статьи</a>
-        <a class="block font-normal text-base leading-4 mb-6" href="#">Отзывы</a>
-      </div>
-      <!-- div-4 -->
-      <div>
-        <h2 class="block font-bold text-xl leading-5 mb-7">Контакты</h2>
-        <p class="mb-2.5 text-[14px] leading-[14px] text-p">Главный офис</p>
-        <address class="font-normal text-base leading-4 not-italic mb-5">Москва, Будайский проезд, дом 3, этаж 1
-        </address>
-        <p class="mb-2.5 text-[14px] leading-[14px] text-p">Отдел продаж и склад</p>
-        <address class="font-normal text-base leading-4 not-italic mb-5">Химки, ул. Рабочая, дом 2</address>
-        <p class="mb-2.5 text-[14px] leading-[14px] text-p">Телефоны</p>
-        <p class="font-normal text-base leading-4 mb-5">8 (495) 970-45-62 / +7 (915) 202-72-57</p>
-        <p class="mb-2.5 text-[14px] leading-[14px] text-p">Электронная почта</p>
-        <p class="font-normal text-base leading-4">grandlesmarket@mail.ru</p>
-      </div>
-    </div>
-    <!-- bottom -->
-    <div>
-      <hr>
-      <div class="flex justify-between p-5">
-        <p class="font-normal text-[14px] leading-[14px] text-p">© 2005-2023 ГрандЛесМаркет. Все права защищены.</p>
-        <a class="font-normal text-[14px] leading-[14px] text-p" href="#">Политика обработки персональных данных</a>
-        <div class="flex justify-center items-center">
-          <p class="font-normal text-[14px] leading-[14px] text-p mr-2.5">Связаться в мессенджерах:</p>
-          <nav>
-            <ul class="flex">
-              <li>
-                <a href="#">
-                  <img class="w-8 h-8 p-2 border border-black rounded-full text-p mr-2.5" src="./img/telegiram.svg"
-                    alt="telegiram">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img class="w-8 h-8 p-2 border border-black rounded-full text-p mr-2.5" src="./img/w.svg" alt="w">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img class="w-8 h-8 p-2 border border-black rounded-full text-p" src="./img/tel.svg" alt="tel">
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <!-- Footer -->
+  <footer class="max-w-maxw mx-auto px-5 pt-4">
+    <!-- footer all links -->
+    <div class="flex justify-between pb-12">
 
+        <!-- First & second -->
+        <div class="flex flex-col ">
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Каталог</h2>
+            </div>
+            <div class="flex ">
+                <ul class="space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Доска</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Брус</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Брусок</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Блокхаус</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Вагонка</a>
+                    </li>
+                    <li class="mr-24">
+                        <a class="font-normal text-base text-br-qora" href="#">Имтиация бруса</a>
+                    </li>
+                </ul>
+                <ul class="flex flex-col space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Половая доска</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Клееный пиломатериал</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Фанера</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Погонаж</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Лиственница</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Стройматериалы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- pokupatelyam -->
+        <div>
+            <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Покапателям</h2>
+            <ul class="space-y-6">
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Доставка</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Оплата</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Гарантии качества</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Прайс-лист</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Акции</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Калькулятор</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- o kompanii -->
+        <div>
+            <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">О компании</h2>
+            <ul class="space-y-6">
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">О компании</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Производство</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Новости</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Статьи</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Отзывы</a>
+                </li>
+                <li>
+                    <a class="font-normal text-base text-br-qora" href="#">Контакты</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Kontakti -->
+        <div>
+            <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Контакты</h2>
+            <ul class="space-y-5">
+                <li class="space-y-2.5">
+                    <span class="font-normal text-sm leading-[14px] text-black-777 ">Главный офис</span>
+                    <address class="font-normal text-base leading-4 not-italic text-black-222">Москва, Будайский проезд, дом 3, этаж 1</address>
+                </li>
+                <li class="space-y-2.5">
+                    <span class="font-normal text-sm leading-[14px] text-black-777 ">Отдел продаж и склад</span>
+                    <address class="font-normal text-base leading-4 not-italic text-black-222">Химки, ул. Рабочая, дом 2</address>
+                </li>
+                <li class="space-y-2.5">
+                    <span class="font-normal text-sm leading-[14px] text-black-777 ">Телефоны</span>
+                    <p class="font-normal text-base leading-4 text-black-222 ">8 (495) 970-45-62 / +7 (915) 202-72-57</p>
+                </li>
+                <li class="space-y-2.5">
+                    <span class="font-normal text-sm leading-[14px] text-black-777 ">Электронная почта</span>
+                    <p class="font-normal text-base leading-4 text-black-222 ">grandlesmarket@mail.ru</p>
+                </li>
+            </ul> 
+        </div>
+    </div>
+
+    <hr class="text-gray-200">
+
+    <!-- Footer bottom -->
+    <div class="flex items-center justify-between py-6">
+        <!-- prava -->
+        <div>
+            <p class=" font-normal text-sm leading-[14px] text-black-777">© 2005-2023 ГрандЛесМаркет. Все права защищены.</p>
+        </div>
+
+        <!-- politika -->
+        <div>
+            <a class="underline font-normal text-sm leading-[14px] text-black-777" href="#">Политика обработки персональных данных</a>
+        </div>
+
+        <!-- soials -->
+        <div class="flex items-center">
+            <p class="mr-2.5 font-normal text-sm leading-[14px]">Связаться в мессенджерах:</p>
+            <div>
+                <ul class="space-x-2.5 flex">
+                    <!-- telegram -->
+                    <li>
+                        <a href="#">
+                            <img class="p-2 border-2 rounded-full" src="./img/telegiram.svg" alt="telegram icon">
+                        </a>
+                    </li>
+                    <!-- whatsapp -->
+                    <li>
+                        <a href="#">
+                            <img class="p-2 border-2 rounded-full" src="./img/w.svg" alt="whatsapp icon">
+                        </a>
+                    </li>
+                    <!-- viber -->
+                    <li>
+                        <a href="#">
+                            <img class="p-2 border-2 rounded-full" src="./img/tel.svg" alt="viber icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 
 </html>

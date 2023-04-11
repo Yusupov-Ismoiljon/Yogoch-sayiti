@@ -12,8 +12,10 @@ module.exports = {
         sev: '1018px',
         with: '646px',
         hero_max_w: '539px',
-        link_max_w: '240px',
         max_w_mwtext: '420px',
+        gboz: '366.42px',
+        link_max_w: '240px',
+        catalogmw: '215px',
         max_w: '175px',
 
       },
