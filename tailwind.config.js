@@ -14,6 +14,7 @@ module.exports = {
         hero_max_w: '539px',
         max_w_mwtext: '420px',
         gboz: '366.42px',
+        aksiya: '345px',
         link_max_w: '240px',
         catalogmw: '215px',
         max_w: '175px',
