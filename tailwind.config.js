@@ -34,6 +34,7 @@ module.exports = {
         bg_f9: '#FF9B04',
         yellow: '#FF9B04',
         cd: '#CDCDCD',
+        green: '#31C76D',
       },
       boxShadow: {
         show: '0-4-10-#000000-5%'
