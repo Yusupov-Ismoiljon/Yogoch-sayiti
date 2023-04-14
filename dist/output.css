@@ -1157,6 +1157,10 @@ input:checked + .toggle-bg {
   margin-bottom: 5rem;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -1237,14 +1241,6 @@ input:checked + .toggle-bg {
   margin-top: 0.5rem;
 }
 
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-9 {
-  margin-bottom: 2.25rem;
-}
-
 .block {
   display: block;
 }
@@ -1289,6 +1285,10 @@ input:checked + .toggle-bg {
   height: 0.625rem;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -1307,22 +1307,6 @@ input:checked + .toggle-bg {
 
 .h-\[100px\] {
   height: 100px;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
-.h-28 {
-  height: 7rem;
 }
 
 .w-1 {
@@ -1393,6 +1377,18 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
+.w-36 {
+  width: 9rem;
+}
+
+.w-9 {
+  width: 2.25rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-aksiya {
   max-width: 345px;
 }
@@ -1427,6 +1423,10 @@ input:checked + .toggle-bg {
 
 .max-w-with {
   max-width: 646px;
+}
+
+.max-w-img {
+  max-width: 470px;
 }
 
 .flex-1 {
@@ -1625,20 +1625,6 @@ input:checked + .toggle-bg {
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
-}
-
-.rounded-t {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-
-.rounded-b {
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
-}
-
-.rounded-bl {
-  border-bottom-left-radius: 0.25rem;
 }
 
 .border {
@@ -1863,6 +1849,11 @@ input:checked + .toggle-bg {
   padding-right: 5rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -1926,6 +1917,11 @@ input:checked + .toggle-bg {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-\[136px\] {
+  padding-top: 136px;
+  padding-bottom: 136px;
 }
 
 .pb-1 {
@@ -2236,6 +2232,10 @@ input:checked + .toggle-bg {
   line-height: 30px;
 }
 
+.leading-\[31\.2px\] {
+  line-height: 31.2px;
+}
+
 .leading-\[44\.2px\] {
   line-height: 44.2px;
 }
@@ -2262,18 +2262,6 @@ input:checked + .toggle-bg {
 
 .leading-\[\] {
   line-height: ;
-}
-
-.leading-\[44\] {
-  line-height: 44;
-}
-
-.leading-\[31px\] {
-  line-height: 31px;
-}
-
-.leading-\[31\.2px\] {
-  line-height: 31.2px;
 }
 
 .text-\[\#2A1A01\] {

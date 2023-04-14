@@ -12,6 +12,7 @@ module.exports = {
         sev: '1018px',
         with: '646px',
         hero_max_w: '539px',
+        img: '470px',
         max_w_mwtext: '420px',
         gboz: '366.42px',
         aksiya: '345px',
