@@ -10,16 +10,24 @@ module.exports = {
         maxw:'1480px',
         main_max_w: '1203px',
         sev: '1018px',
+        div_img: '670px',
         with: '646px',
         hero_max_w: '539px',
+        divide: '520px',
         img: '470px',
         max_w_mwtext: '420px',
         gboz: '366.42px',
         aksiya: '345px',
         link_max_w: '240px',
+        
         catalogmw: '215px',
         max_w: '175px',
 
+      },
+      width: {
+        img: '460px',
+        div_img: '650px',
+        link: '250px',
       },
       colors: {
         address_black: '#222',  
