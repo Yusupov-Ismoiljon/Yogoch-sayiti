@@ -1269,10 +1269,6 @@ input:checked + .toggle-bg {
   margin-right: 2rem;
 }
 
-.mr-\[100px\] {
-  margin-right: 100px;
-}
-
 .mr-\[108px\] {
   margin-right: 108px;
 }
@@ -1365,10 +1361,6 @@ input:checked + .toggle-bg {
   height: 100px;
 }
 
-.h-\[150px\] {
-  height: 150px;
-}
-
 .h-\[30px\] {
   height: 30px;
 }
@@ -1377,16 +1369,28 @@ input:checked + .toggle-bg {
   height: 50px;
 }
 
+.h-\[670px\] {
+  height: 670px;
+}
+
+.h-\[3\] {
+  height: 3;
+}
+
+.h-\[398px\] {
+  height: 398px;
+}
+
+.max-h-\[\] {
+  max-height: ;
+}
+
+.max-h-\[670px\] {
+  max-height: 670px;
+}
+
 .min-h-\[150px\] {
   min-height: 150px;
-}
-
-.min-h-\[150\] {
-  min-height: 150;
-}
-
-.min-h-\[150p\] {
-  min-height: 150p;
 }
 
 .w-1 {
@@ -1461,6 +1465,10 @@ input:checked + .toggle-bg {
   width: 50px;
 }
 
+.w-\[670px\] {
+  width: 670px;
+}
+
 .w-\[710px\] {
   width: 710px;
 }
@@ -1501,6 +1509,14 @@ input:checked + .toggle-bg {
   width: 315px;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[470px\] {
+  width: 470px;
+}
+
 .max-w-aksiya {
   max-width: 345px;
 }
@@ -1539,6 +1555,14 @@ input:checked + .toggle-bg {
 
 .max-w-with {
   max-width: 646px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[670px\] {
+  max-width: 670px;
 }
 
 .flex-1 {
@@ -2002,6 +2026,11 @@ input:checked + .toggle-bg {
   padding-right: 5rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -2015,11 +2044,6 @@ input:checked + .toggle-bg {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.px-\[100px\] {
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .px-\[31px\] {
@@ -2092,14 +2116,24 @@ input:checked + .toggle-bg {
   padding-bottom: 2rem;
 }
 
+.py-\[23px\] {
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
 .py-\[136px\] {
   padding-top: 136px;
   padding-bottom: 136px;
 }
 
-.py-\[23px\] {
-  padding-top: 23px;
-  padding-bottom: 23px;
+.py-\[1\] {
+  padding-top: 1;
+  padding-bottom: 1;
 }
 
 .pb-1 {
