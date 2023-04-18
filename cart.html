@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин пиломатериалов</title>
+
+    <link rel="stylesheet" href="./dist/output.css">
+    <!-- input-checkbox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</head>
+
+<body>
+    <!-- top -->
+    <div class="bg-grey_bg">
+        <div class="w-full max-w-maxw mx-auto px-5 flex justify-between py-2">
+            <div class="text-center">
+                <label class="font-normal text-[16px] leading-[14px] mr-1" for="bash">Ваш город:</label>
+                <select class="bg-transparent" id="bash">
+                    <option class="select-country font-normal text-xs leading-[14px]">Москва</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <address class="not-italic font-normal text-xs leading-[14px] text-address_black">Москва, г. Химки, ул.
+                    Рабочая,дом 2</address>
+                <p class="font-normal text-[12px] leading-[12px] text-grey_text">c 09:00 до 20:00 без выходных</p>
+            </div>
+            <div class="text-center">
+                <p class="font-medium text-xs leading-[14px] text-address_black mb-1">+7 (495) 970-45-62 / +7 (915)
+                    202-72-57
+                </p>
+                <a class="font-medium text-[12px] leading-[12px] text-address_black"
+                    href="tel:+7915202-72-57">Перезвонить?</a>
+            </div>
+            <div class="flex justify-center items-center">
+                <p class="font-normal text-xs leading-[14px] text-address_black mr-2.5">Связаться:</p>
+                <nav>
+                    <ul class="flex">
+                        <li>
+                            <a href="#">
+                                <img class="w-8 h-8 p-2 border border-black rounded-full mr-2.5"
+                                    src="./img/telegiram.svg" alt="telegiram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="w-8 h-8 p-2 border border-black rounded-full mr-2.5" src="./img/w.svg"
+                                    alt="w">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="w-8 h-8 p-2 border border-black rounded-full" src="./img/tel.svg" alt="tel">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <header class="shadow-lg mb-12">
+        <div class="w-full max-w-maxw mx-auto px-5 flex items-center justify-between py-3">
+            <p class="font-medium text-xs leading-[14px] text-address_black">grandlesmarket@mail.ru</p>
+            <div>
+                <ul class="flex items-center">
+                    <li class="mr-11">
+                        <a class="font-semibold text-[13px] leading-[13px] select-country  uppercase"
+                            href="./checkout.html">Каталог</a>
+                    </li>
+                    <li class="mr-16">
+                        <a class="font-semibold text-[13px] leading-[13px] select-country  uppercase"
+                            href="#">Покупателю</a>
+                    </li>
+                    <li>
+                        <a href="home.html">
+                            <img class="mr-16" src="./img/orta.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="mr-11">
+                        <a class="font-semibold text-[13px] leading-[13px] select-country  uppercase" href="#">O
+                            компании</a>
+                    </li>
+                    <li>
+                        <a class="select-country  uppercase" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="flex">
+                    <li>
+                        <a href="#">
+                            <img class="mr-8" src="./img/kalkulatur.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="mr-8" src="./img/logo.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img class="relative -z-50" src="./img/arava.svg" alt="">
+                        </a>
+                        <div
+                            class="w-4 h-4 font-normal text-[10px] leading-[10px] text-center justify-center pb-1 pt-0.5 px-0.5 bg-bg_f9 rounded-full -mt-8 ml-3 z-20">
+                            2</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="w-full max-w-maxw mx-auto px-5">
+        <div class="flex flex-col justify-between mb-12">
+            <div class="mb-7">
+                <ul>
+                    <li>
+                        <a class="font-normal text-base leading-[17.6px]" href="#"><span
+                                class="text-yellow">Главная</span> / Каталог</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex items-center">
+                <h2 class="font-bold text-[44px] leading-[57.2px] mr-8">Моя корзина</h2>
+                <img class="mr-2.5" src="./img/x.svg" alt="">
+                <span class="font-normal text-p  text-[14px] leading-[19.6px]">Очистить корзину</span>
+            </div>
+        </div>
+        <hr>
+        <div class="flex ">
+            <div class="divide-y" style="width: 1125px; margin-right: 50px;">
+
+                <div class="flex items-center justify-between py-5">
+                    <div class=" flex">
+                        <img class="w-img1 bg-gray rounded-xl py-4 px-2 mr-7" src="./img/1.png" alt="">
+                        <p class="font-medium text-base leading-6">Доска строганная сухая <br> 50х150х6000</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex items-center border rounded p-1 mb-2.5">
+                            <button class="w-10 h-10 text-center border border-bg-cd  rounded-lg mr-7">-</button>
+                            <p class="font-bold text-base leading-5 mr-7">1</p>
+                            <button class="w-10 h-10  border border-bg-cd rounded-lg">+</button>
+                        </div>
+                        <p class="font-normal text-p text-[14px] leading-[14px]">17 500 ₽/м<sup>3</sup></p>
+                    </div>
+                    <p class="font-semibold text-base leading-[20.8px]">17 500 ₽</p>
+                    <button>
+                        <img src="./img/chiqindi.svg" alt="">
+                    </button>
+
+                </div>
+
+                <div class="flex items-center justify-between py-5">
+                    <div class=" flex">
+                        <img class="w-img1 bg-gray rounded-xl py-4 px-2 mr-7" src="./img/2.png" alt="">
+                        <p class="font-medium text-base leading-6">Доска строганная сухая <br> 50х150х6000</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="flex items-center border rounded p-1 mb-2.5">
+                            <button class="w-10 h-10 text-center border border-bg-cd  rounded-lg mr-7">-</button>
+                            <p class="font-bold text-base leading-5 mr-7">1</p>
+                            <button class="w-10 h-10  border border-bg-cd rounded-lg">+</button>
+                        </div>
+                        <p class="font-normal text-p text-[14px] leading-[14px]">21 500 ₽/м<sup>3</sup></p>
+                    </div>
+                    <p class="font-semibold text-base leading-[20.8px]">21 500 ₽</p>
+                    <button>
+                        <img src="./img/chiqindi.svg" alt="">
+                    </button>
+
+                </div>
+                <hr>
+            </div>
+            <div class="w-mm bg-f8 rounded-lg">
+                <div class="p-[30px]">
+                    <p class="font-medium text-[24px] leading-[31.2px] mb-5">В корзине</p>
+                    <div class="flex justify-between mb-4">
+                        <p class="font-normal text-base leading-[20.8px]">2 товара</p>
+                        <p class="font-semibold text-base leading-[20.8px]">39 000 ₽</p>
+                    </div>
+                    <div class="flex justify-between mb-4">
+                        <p class="font-normal text-base leading-[20.8px] uppercase">Сумма НДС</p>
+                        <p class="font-semibold text-base leading-[20.8px]">0 ₽</p>
+                    </div>
+                    <div class="flex justify-between mb-7">
+                        <p class="font-normal text-base leading-[20.8px]">Итого:</p>
+                        <p class="font-semibold text-base leading-[20.8px]">39 000 ₽</p>
+                    </div>
+                    <button
+                        class="flex-wrap items-center font-semibold text-white text-base leading-[14px] bg-yellow rounded-xl uppercase py-[23px] px-[49px]">Оформить
+                        заказ</button>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-5">
+                <div class="relative">
+                    <div class="bg-gray pt-5 pl-5 pb-16 pr-8 mb-5 rounded-lg">
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase mr-2.5">Новинка</span>
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase">Хит</span>
+                        <img class="mt-6" src="./img/miqlar.png" alt="">
+                    </div>
+                    <div class="border rounded-lg px-5 pt-5 pb-8 -mt-8">
+                        <p class="font-bold tetx-[20px] leading-6 mb-5">Гвозди строительные 50 мм</p>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Количество:</p>
+                            <button class="w-10 h-10 text-center border border-bg-cd  rounded-lg mr-7">-</button>
+                            <p class="font-bold text-base leading-5 mr-7">1</p>
+                            <button class="w-10 h-10  border border-bg-cd rounded-lg">+</button>
+                        </div>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Цена за:</p>
+                            <button class="w-[30px] h-[30px] text-center border  rounded-lg mr-2.5">кг</button>
+                            <button class="w-[30px] h-[30px]  border border-bg-cd rounded-lg mr-5">+</button>
+                            <p class="font-bold text-base leading-[20.8px]">200 ₽</p>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="font-semibold text-[13px] leading-[13px] bg-yellow text-white rounded-lg py-5 px-11 mr-7"
+                                href="#">B корзину</a>
+                            <p class="font-semibold text-[13px] leading-[13px] mr-2">Купить в 1 клик</p>
+                            <img src="./img/Vector.svg" alt="">
+                        </div>
+                    </div>
+                    <button
+                        class="w-[50px] h-[50px] py-5 px-4 absolute top-[260px] -left-6 shadow-2xl  bg-white rounded-full">
+                        <img class="" src="./img/chap.svg" alt="">
+                    </button>
+                </div>
+                <div>
+                    <div class="bg-gray pt-5 pl-5 pb-16 pr-8 mb-5 rounded-lg">
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase mr-2.5">Новинка</span>
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase">Хит</span>
+                        <img class="mt-6" src="./img/miqlar.png" alt="">
+                    </div>
+                    <div class="border rounded-lg px-5 pt-5 pb-8 -mt-8">
+                        <p class="font-bold tetx-[20px] leading-6 mb-5">Гвозди строительные 50 мм</p>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Количество:</p>
+                            <button class="w-10 h-10 text-center border border-bg-cd  rounded-lg mr-7">-</button>
+                            <p class="font-bold text-base leading-5 mr-7">1</p>
+                            <button class="w-10 h-10  border border-bg-cd rounded-lg">+</button>
+                        </div>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Цена за:</p>
+                            <button class="w-[30px] h-[30px] text-center border  rounded-lg mr-2.5">кг</button>
+                            <button class="w-[30px] h-[30px]  border border-bg-cd rounded-lg mr-5">+</button>
+                            <p class="font-bold text-base leading-[20.8px]">200 ₽</p>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="font-semibold text-[13px] leading-[13px] bg-yellow text-white rounded-lg py-5 px-11 mr-7"
+                                href="#">B корзину</a>
+                            <p class="font-semibold text-[13px] leading-[13px] mr-2">Купить в 1 клик</p>
+                            <img src="./img/Vector.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-gray pt-5 pl-5 pb-16 pr-8 mb-5 rounded-lg">
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase mr-2.5">Новинка</span>
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase">Хит</span>
+                        <img class="mt-6" src="./img/miqlar.png" alt="">
+                    </div>
+                    <div class="border rounded-lg px-5 pt-5 pb-8 -mt-8">
+                        <p class="font-bold tetx-[20px] leading-6 mb-5">Гвозди строительные 50 мм</p>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Количество:</p>
+                            <button class="w-10 h-10 text-center border border-bg-cd  rounded-lg mr-7">-</button>
+                            <p class="font-bold text-base leading-5 mr-7">1</p>
+                            <button class="w-10 h-10  border border-bg-cd rounded-lg">+</button>
+                        </div>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Цена за:</p>
+                            <button class="w-[30px] h-[30px] text-center border  rounded-lg mr-2.5">кг</button>
+                            <button class="w-[30px] h-[30px]  border border-bg-cd rounded-lg mr-5">+</button>
+                            <p class="font-bold text-base leading-[20.8px]">200 ₽</p>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="font-semibold text-[13px] leading-[13px] bg-yellow text-white rounded-lg py-5 px-11 mr-7"
+                                href="#">B корзину</a>
+                            <p class="font-semibold text-[13px] leading-[13px] mr-2">Купить в 1 клик</p>
+                            <img src="./img/Vector.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-gray pt-5 pl-5 pb-16 pr-8 mb-5 rounded-lg">
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase mr-2.5">Новинка</span>
+                        <span
+                            class="font-medium tetx-[11px] leading-[11px] py-2 px-2.5 border rounded-lg uppercase">Хит</span>
+                        <img class="mt-6" src="./img/miqlar.png" alt="">
+                    </div>
+                    <div class="border rounded-lg px-5 pt-5 pb-8 -mt-8">
+                        <p class="font-bold tetx-[20px] leading-6 mb-5">Гвозди строительные 50 мм</p>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Количество:</p>
+                            <button class="w-10 h-10 text-center border border-bg-cd  rounded-lg mr-7">-</button>
+                            <p class="font-bold text-base leading-5 mr-7">1</p>
+                            <button class="w-10 h-10  border border-bg-cd rounded-lg">+</button>
+                        </div>
+                        <div class="flex items-center mb-6">
+                            <p class="font-medium text-base leading-[20.8px] mr-2.5">Цена за:</p>
+                            <button class="w-[30px] h-[30px] text-center border  rounded-lg mr-2.5">кг</button>
+                            <button class="w-[30px] h-[30px]  border border-bg-cd rounded-lg mr-5">+</button>
+                            <p class="font-bold text-base leading-[20.8px]">200 ₽</p>
+                        </div>
+                        <div class="flex items-center">
+                            <a class="font-semibold text-[13px] leading-[13px] bg-yellow text-white rounded-lg py-5 px-11 mr-7"
+                                href="#">B корзину</a>
+                            <p class="font-semibold text-[13px] leading-[13px] mr-2">Купить в 1 клик</p>
+                            <img src="./img/Vector.svg" alt="">
+                        </div>
+                    </div>
+                    <button
+                        class="w-[50px] h-[50px] py-5 px-4 absolute top-[260px] -right-7 shadow-2xl  bg-white rounded-full">
+                        <img class="" src="./img/ong.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- cta -->
+    <div class="w-full max-w-maxw mx-auto px-5 pt-16 pb-9">
+        <div>
+            <div class="px-12 pt-12 pb-9 bg-grey_bg rounded-lg">
+                <h2 class="font-semibold text-[34px] leading-[44.2px] mb-7">Оставьте заявку прямо сейчас и <span
+                        class="text-yellow">получите скидку 20%</span> на доставку!</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center mb-11">
+                    <div>
+                        <input type="text" id="last_name"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-2.5"
+                            placeholder="Как к Вам обращаться?" required>
+                    </div>
+                    <div>
+                        <input type="tel" id="phone"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
+                            placeholder="+7 (_ _ _) _ _ _ - _ _ - _ _" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    </div>
+                    <a class="max-w-link_max_w font-semibold text-[13px] leading-[13px] bg-yellow text-white uppercase rounded-lg py-6 px-14"
+                        href="#">Отправить заявку</a>
+                </div>
+                <p class="font-normal text-p text-[13px] leading-[13px]">Нажимая кнопку “Отправить заявку”, Вы
+                    соглашаетесь с
+                    правилами обработки персональных данных</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="max-w-maxw mx-auto px-5 pt-4">
+        <!-- footer all links -->
+        <div class="flex justify-between pb-12">
+
+            <!-- First & second -->
+            <div class="flex flex-col ">
+                <div>
+                    <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Каталог</h2>
+                </div>
+                <div class="flex ">
+                    <ul class="space-y-6">
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Доска</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Брус</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Брусок</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Блокхаус</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Вагонка</a>
+                        </li>
+                        <li class="mr-24">
+                            <a class="font-normal text-base text-br-qora" href="#">Имтиация бруса</a>
+                        </li>
+                    </ul>
+                    <ul class="flex flex-col space-y-6">
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Половая доска</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Клееный пиломатериал</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Фанера</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Погонаж</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Лиственница</a>
+                        </li>
+                        <li>
+                            <a class="font-normal text-base text-br-qora" href="#">Стройматериалы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- pokupatelyam -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Покапателям</h2>
+                <ul class="space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Доставка</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Оплата</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Гарантии качества</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Акции</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Калькулятор</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- o kompanii -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">О компании</h2>
+                <ul class="space-y-6">
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">О компании</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Производство</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Новости</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Статьи</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Отзывы</a>
+                    </li>
+                    <li>
+                        <a class="font-normal text-base text-br-qora" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Kontakti -->
+            <div>
+                <h2 class="font-semibold text-xl leading-20 text-br-qora mb-8">Контакты</h2>
+                <ul class="space-y-5">
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Главный офис</span>
+                        <address class="font-normal text-base leading-4 not-italic text-black-222">Москва, Будайский
+                            проезд, дом 3,
+                            этаж 1</address>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Отдел продаж и склад</span>
+                        <address class="font-normal text-base leading-4 not-italic text-black-222">Химки, ул. Рабочая,
+                            дом 2
+                        </address>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Телефоны</span>
+                        <p class="font-normal text-base leading-4 text-black-222 ">8 (495) 970-45-62 / +7 (915)
+                            202-72-57</p>
+                    </li>
+                    <li class="space-y-2.5">
+                        <span class="font-normal text-sm leading-[14px] text-black-777 ">Электронная почта</span>
+                        <p class="font-normal text-base leading-4 text-black-222 ">grandlesmarket@mail.ru</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="text-gray-200">
+
+        <!-- Footer bottom -->
+        <div class="flex items-center justify-between py-6">
+            <!-- prava -->
+            <div>
+                <p class=" font-normal text-sm leading-[14px] text-black-777">© 2005-2023 ГрандЛесМаркет. Все права
+                    защищены.
+                </p>
+            </div>
+
+            <!-- politika -->
+            <div>
+                <a class="underline font-normal text-sm leading-[14px] text-black-777" href="#">Политика обработки
+                    персональных
+                    данных</a>
+            </div>
+
+            <!-- soials -->
+            <div class="flex items-center">
+                <p class="mr-2.5 font-normal text-sm leading-[14px]">Связаться в мессенджерах:</p>
+                <div>
+                    <ul class="space-x-2.5 flex">
+                        <!-- telegram -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/telegiram.svg" alt="telegram icon">
+                            </a>
+                        </li>
+                        <!-- whatsapp -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/w.svg" alt="whatsapp icon">
+                            </a>
+                        </li>
+                        <!-- viber -->
+                        <li>
+                            <a href="#">
+                                <img class="p-2 border-2 rounded-full" src="./img/tel.svg" alt="viber icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
