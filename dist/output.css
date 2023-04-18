@@ -2528,6 +2528,30 @@ input:checked + .toggle-bg {
   line-height: 66px;
 }
 
+.leading-\[17\.\] {
+  line-height: 17.;
+}
+
+.leading-\[17\.6\] {
+  line-height: 17.6;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[52\.7\] {
+  line-height: 52.7;
+}
+
+.leading-\[5\] {
+  line-height: 5;
+}
+
+.leading-\[57\.2\] {
+  line-height: 57.2;
+}
+
 .text-\[\#2A1A01\] {
   --tw-text-opacity: 1;
   color: rgb(42 26 1 / var(--tw-text-opacity));
