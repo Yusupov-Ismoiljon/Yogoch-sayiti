@@ -1509,6 +1509,14 @@ input:checked + .toggle-bg {
   width: 315px;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[325px\] {
+  width: 325px;
+}
+
 .max-w-aksiya {
   max-width: 345px;
 }
