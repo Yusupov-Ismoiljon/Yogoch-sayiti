@@ -1301,6 +1301,10 @@ input:checked + .toggle-bg {
   margin-top: 2.25rem;
 }
 
+.mb-52 {
+  margin-bottom: 13rem;
+}
+
 .block {
   display: block;
 }
