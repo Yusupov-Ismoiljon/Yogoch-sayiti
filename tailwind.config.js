@@ -54,10 +54,9 @@ module.exports = {
         f8: '#F8F8F8',
         b: '#000000',
       },
-      borderRadius
       boxShadow: {
         show: '0-4-10-#000000-5%'
-      }
+      },
     }
   },
   plugins: [

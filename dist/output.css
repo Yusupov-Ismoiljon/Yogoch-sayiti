@@ -1393,6 +1393,14 @@ input:checked + .toggle-bg {
   height: 50px;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[5px\] {
+  height: 5px;
+}
+
 .min-h-\[150px\] {
   min-height: 150px;
 }
@@ -1523,6 +1531,10 @@ input:checked + .toggle-bg {
 
 .w-mm {
   width: 315px;
+}
+
+.w-nu {
+  width: 5px;
 }
 
 .max-w-aksiya {
@@ -1882,6 +1894,11 @@ input:checked + .toggle-bg {
 .bg-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(255 155 4 / var(--tw-bg-opacity));
+}
+
+.bg-b {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-50 {
