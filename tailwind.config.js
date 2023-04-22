@@ -60,7 +60,8 @@ module.exports = {
         b: '#000000',
       },
       boxShadow: {
-        show: '0-4-10-#000000-5%'
+        show: '0-4-10-#000000-5%',
+        sh: 'box-shadow: 0px_0px_15px_0px #00000014',
       },
     }
   },
