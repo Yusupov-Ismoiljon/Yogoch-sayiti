@@ -1329,6 +1329,10 @@ input:checked + .toggle-bg {
   margin-top: 2.25rem;
 }
 
+.mb-\[\] {
+  margin-bottom: ;
+}
+
 .block {
   display: block;
 }
@@ -1435,6 +1439,14 @@ input:checked + .toggle-bg {
 
 .min-h-\[150px\] {
   min-height: 150px;
+}
+
+.min-h-0 {
+  min-height: 0px;
+}
+
+.min-h-\[1\] {
+  min-height: 1;
 }
 
 .w-1 {
@@ -1591,6 +1603,14 @@ input:checked + .toggle-bg {
 
 .w-\[\] {
   width: ;
+}
+
+.w-\[1340px\] {
+  width: 1340px;
+}
+
+.w-0 {
+  width: 0px;
 }
 
 .max-w-aksiya {
@@ -1757,6 +1777,10 @@ input:checked + .toggle-bg {
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1954,6 +1978,29 @@ input:checked + .toggle-bg {
 .bg-yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(255 155 4 / var(--tw-bg-opacity));
+}
+
+.bg-b {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#333\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#333333\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#\] {
+  background-color: #;
 }
 
 .bg-opacity-50 {
@@ -2196,6 +2243,51 @@ input:checked + .toggle-bg {
 .py-\[26px\] {
   padding-top: 26px;
   padding-bottom: 26px;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[56px\] {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[4\] {
+  padding-left: 4;
+  padding-right: 4;
+}
+
+.px-\[83\] {
+  padding-left: 83;
+  padding-right: 83;
+}
+
+.px-\[83px\] {
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
+.py-\[25px\] {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.py-\[24px\] {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .pb-1 {
@@ -2662,6 +2754,10 @@ input:checked + .toggle-bg {
   line-height: 22.05px0;
 }
 
+.leading-\[13ppx\] {
+  line-height: 13ppx;
+}
+
 .text-\[\#2A1A01\] {
   --tw-text-opacity: 1;
   color: rgb(42 26 1 / var(--tw-text-opacity));
@@ -2735,6 +2831,14 @@ input:checked + .toggle-bg {
 .text-yellow {
   --tw-text-opacity: 1;
   color: rgb(255 155 4 / var(--tw-text-opacity));
+}
+
+.text-\[16\] {
+  color: 16;
+}
+
+.text-\[13\] {
+  color: 13;
 }
 
 .underline {
@@ -2997,6 +3101,10 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 768px) {
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
