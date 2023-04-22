@@ -24,9 +24,14 @@ module.exports = {
 
       },
       width: {
+        s: '1272px',
         div: '1075px',
         div_img: '650px',
+        b95: '595px',
+        yuk: '577px',
+        b33: '533px',
         divide: '520px',
+        b3: '503px',
         img: '470px',
         mm: '315px',
         ink_1: '255px',
