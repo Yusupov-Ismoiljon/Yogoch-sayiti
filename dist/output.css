@@ -2468,6 +2468,46 @@ input:checked + .toggle-bg {
   padding-right: 60px;
 }
 
+.pb-\[60px\] {
+  padding-bottom: 60px;
+}
+
+.pb-11 {
+  padding-bottom: 2.75rem;
+}
+
+.pb-\[66px\] {
+  padding-bottom: 66px;
+}
+
+.pb-\[116px\] {
+  padding-bottom: 116px;
+}
+
+.pb-\[91px\] {
+  padding-bottom: 91px;
+}
+
+.pb-\[px\] {
+  padding-bottom: px;
+}
+
+.pb-\[9px\] {
+  padding-bottom: 9px;
+}
+
+.pb-\[19px\] {
+  padding-bottom: 19px;
+}
+
+.pb-\[141px\] {
+  padding-bottom: 141px;
+}
+
+.pb-\[69px\] {
+  padding-bottom: 69px;
+}
+
 .text-center {
   text-align: center;
 }
