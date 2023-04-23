@@ -1329,6 +1329,10 @@ input:checked + .toggle-bg {
   margin-top: 2.25rem;
 }
 
+.mb-\[\] {
+  margin-bottom: ;
+}
+
 .block {
   display: block;
 }
@@ -2508,6 +2512,10 @@ input:checked + .toggle-bg {
   padding-bottom: 69px;
 }
 
+.pt-\[\] {
+  padding-top: ;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2810,6 +2818,10 @@ input:checked + .toggle-bg {
 
 .leading-\[66px\] {
   line-height: 66px;
+}
+
+.leading-\[44\] {
+  line-height: 44;
 }
 
 .text-\[\#2A1A01\] {
