@@ -1613,6 +1613,10 @@ input:checked + .toggle-bg {
   width: 265px;
 }
 
+.w-\[310px\] {
+  width: 310px;
+}
+
 .max-w-aksiya {
   max-width: 345px;
 }
@@ -2454,6 +2458,14 @@ input:checked + .toggle-bg {
 
 .pb-\[42px\] {
   padding-bottom: 42px;
+}
+
+.pr-\[6\] {
+  padding-right: 6;
+}
+
+.pr-\[60px\] {
+  padding-right: 60px;
 }
 
 .text-center {
