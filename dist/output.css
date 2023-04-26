@@ -1329,6 +1329,10 @@ input:checked + .toggle-bg {
   margin-top: 2.25rem;
 }
 
+.mb-\[\] {
+  margin-bottom: ;
+}
+
 .block {
   display: block;
 }
@@ -1603,6 +1607,10 @@ input:checked + .toggle-bg {
 
 .w-s {
   width: 1272px;
+}
+
+.w-div {
+  width: 1075px;
 }
 
 .max-w-aksiya {
@@ -2257,6 +2265,21 @@ input:checked + .toggle-bg {
   padding-bottom: 56px;
 }
 
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[22px\] {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -2571,6 +2594,10 @@ input:checked + .toggle-bg {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[1px\] {
+  font-size: 1px;
 }
 
 .font-bold {
