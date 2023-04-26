@@ -1329,10 +1329,6 @@ input:checked + .toggle-bg {
   margin-top: 2.25rem;
 }
 
-.mb-\[50\] {
-  margin-bottom: 50;
-}
-
 .block {
   display: block;
 }
@@ -2261,11 +2257,6 @@ input:checked + .toggle-bg {
   padding-bottom: 56px;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -2440,10 +2431,6 @@ input:checked + .toggle-bg {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pt-\[25px\] {
-  padding-top: 25px;
 }
 
 .pt-\[31px\] {
@@ -2843,10 +2830,6 @@ input:checked + .toggle-bg {
 .text-yellow {
   --tw-text-opacity: 1;
   color: rgb(255 155 4 / var(--tw-text-opacity));
-}
-
-.text-\[1\] {
-  color: 1;
 }
 
 .underline {
