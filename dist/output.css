@@ -2261,6 +2261,11 @@ input:checked + .toggle-bg {
   padding-bottom: 56px;
 }
 
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -2761,6 +2766,10 @@ input:checked + .toggle-bg {
   line-height: 66px;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
 .text-\[\#2A1A01\] {
   --tw-text-opacity: 1;
   color: rgb(42 26 1 / var(--tw-text-opacity));
@@ -2834,6 +2843,10 @@ input:checked + .toggle-bg {
 .text-yellow {
   --tw-text-opacity: 1;
   color: rgb(255 155 4 / var(--tw-text-opacity));
+}
+
+.text-\[1\] {
+  color: 1;
 }
 
 .underline {
