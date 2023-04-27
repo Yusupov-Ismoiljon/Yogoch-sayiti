@@ -33,6 +33,7 @@ module.exports = {
         divide: '520px',
         b3: '503px',
         img: '470px',
+        doc:'340px',
         mm: '315px',
         ink_1: '255px',
         link: '250px',

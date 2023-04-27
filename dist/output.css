@@ -1329,10 +1329,6 @@ input:checked + .toggle-bg {
   margin-top: 2.25rem;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
 .block {
   display: block;
 }
@@ -1573,6 +1569,10 @@ input:checked + .toggle-bg {
   width: 595px;
 }
 
+.w-div {
+  width: 1075px;
+}
+
 .w-div_img {
   width: 650px;
 }
@@ -1583,6 +1583,10 @@ input:checked + .toggle-bg {
 
 .w-do {
   width: 190px;
+}
+
+.w-doc {
+  width: 340px;
 }
 
 .w-full {
@@ -1607,10 +1611,6 @@ input:checked + .toggle-bg {
 
 .w-s {
   width: 1272px;
-}
-
-.w-div {
-  width: 1075px;
 }
 
 .max-w-aksiya {
@@ -1773,10 +1773,6 @@ input:checked + .toggle-bg {
 
 .gap-5 {
   gap: 1.25rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
 }
 
 .gap-7 {
@@ -2165,6 +2161,11 @@ input:checked + .toggle-bg {
   padding-right: 2rem;
 }
 
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
 .px-\[31px\] {
   padding-left: 31px;
   padding-right: 31px;
@@ -2245,6 +2246,11 @@ input:checked + .toggle-bg {
   padding-bottom: 2rem;
 }
 
+.py-\[22px\] {
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
 .py-\[23px\] {
   padding-top: 23px;
   padding-bottom: 23px;
@@ -2263,21 +2269,6 @@ input:checked + .toggle-bg {
 .py-\[56px\] {
   padding-top: 56px;
   padding-bottom: 56px;
-}
-
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[22px\] {
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-.px-9 {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
 }
 
 .pb-1 {
@@ -2472,6 +2463,14 @@ input:checked + .toggle-bg {
   padding-top: 70px;
 }
 
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[22px\] {
+  padding-bottom: 22px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2594,10 +2593,6 @@ input:checked + .toggle-bg {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[1px\] {
-  font-size: 1px;
 }
 
 .font-bold {
@@ -2780,10 +2775,6 @@ input:checked + .toggle-bg {
   line-height: 66px;
 }
 
-.leading-\[\] {
-  line-height: ;
-}
-
 .text-\[\#2A1A01\] {
   --tw-text-opacity: 1;
   color: rgb(42 26 1 / var(--tw-text-opacity));
@@ -2955,6 +2946,11 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-yellow:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 155 4 / var(--tw-bg-opacity));
+}
+
 .hover\:text-blue-600:hover {
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity));
@@ -2968,6 +2964,11 @@ input:checked + .toggle-bg {
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.hover\:text-yellow:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 155 4 / var(--tw-text-opacity));
 }
 
 .focus\:text-black:focus {
@@ -3010,6 +3011,11 @@ input:checked + .toggle-bg {
 .focus\:ring-red-500:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(240 82 82 / var(--tw-ring-opacity));
+}
+
+.active\:text-yellow:active {
+  --tw-text-opacity: 1;
+  color: rgb(255 155 4 / var(--tw-text-opacity));
 }
 
 .dark .dark\:border-blue-500 {
