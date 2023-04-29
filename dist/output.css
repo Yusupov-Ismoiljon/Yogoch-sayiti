@@ -2627,6 +2627,18 @@ input:checked + .toggle-bg {
   padding-top: 70px;
 }
 
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[60px\] {
+  padding-bottom: 60px;
+}
+
+.pt-\[60px\] {
+  padding-top: 60px;
+}
+
 .text-center {
   text-align: center;
 }
