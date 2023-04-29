@@ -1353,6 +1353,18 @@ input:checked + .toggle-bg {
   margin-bottom: 71px;
 }
 
+.mb-\[y72\] {
+  margin-bottom: y72;
+}
+
+.mb-\[72\] {
+  margin-bottom: 72;
+}
+
+.mb-\[72px\] {
+  margin-bottom: 72px;
+}
+
 .block {
   display: block;
 }
@@ -2340,6 +2352,11 @@ input:checked + .toggle-bg {
 .py-\[22xpx\] {
   padding-top: 22xpx;
   padding-bottom: 22xpx;
+}
+
+.px-\[59px\] {
+  padding-left: 59px;
+  padding-right: 59px;
 }
 
 .pb-1 {
