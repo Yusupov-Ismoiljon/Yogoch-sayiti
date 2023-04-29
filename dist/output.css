@@ -1257,6 +1257,10 @@ input:checked + .toggle-bg {
   margin-right: 3rem;
 }
 
+.mr-14 {
+  margin-right: 3.5rem;
+}
+
 .mr-16 {
   margin-right: 4rem;
 }
@@ -1331,6 +1335,22 @@ input:checked + .toggle-bg {
 
 .mt-9 {
   margin-top: 2.25rem;
+}
+
+.mr-\[\] {
+  margin-right: ;
+}
+
+.mr-\[52\] {
+  margin-right: 52;
+}
+
+.mr-\[52px\] {
+  margin-right: 52px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
 }
 
 .block {
@@ -1903,6 +1923,11 @@ input:checked + .toggle-bg {
   border-width: 2px;
 }
 
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -1917,10 +1942,6 @@ input:checked + .toggle-bg {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-r-4 {
-  border-right-width: 4px;
 }
 
 .border-black {
@@ -2100,10 +2121,6 @@ input:checked + .toggle-bg {
 
 .p-\[30px\] {
   padding: 30px;
-}
-
-.p-\[35px\] {
-  padding: 35px;
 }
 
 .px-0 {
@@ -2611,10 +2628,6 @@ input:checked + .toggle-bg {
   line-height: 1rem;
 }
 
-.text-\[1px\] {
-  font-size: 1px;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -2795,6 +2808,14 @@ input:checked + .toggle-bg {
   line-height: 66px;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[44\.\] {
+  line-height: 44.;
+}
+
 .text-\[\#2A1A01\] {
   --tw-text-opacity: 1;
   color: rgb(42 26 1 / var(--tw-text-opacity));
@@ -2947,6 +2968,18 @@ input:checked + .toggle-bg {
   transition-duration: 150ms;
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
@@ -2954,6 +2987,11 @@ input:checked + .toggle-bg {
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.hover\:border-yellow:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 155 4 / var(--tw-border-opacity));
 }
 
 .hover\:bg-blue-800:hover {
