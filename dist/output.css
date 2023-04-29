@@ -1365,6 +1365,10 @@ input:checked + .toggle-bg {
   margin-bottom: 72px;
 }
 
+.mr-\[\] {
+  margin-right: ;
+}
+
 .block {
   display: block;
 }
@@ -1655,6 +1659,18 @@ input:checked + .toggle-bg {
 
 .w-th {
   width: 230px;
+}
+
+.w-\[124px\] {
+  width: 124px;
+}
+
+.w-\[98px\] {
+  width: 98px;
+}
+
+.w-\[99px\] {
+  width: 99px;
 }
 
 .max-w-aksiya {
@@ -2948,6 +2964,10 @@ input:checked + .toggle-bg {
 
 .text-\[13\] {
   color: 13;
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
