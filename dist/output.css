@@ -1100,6 +1100,62 @@ input:checked + .toggle-bg {
   top: 50px;
 }
 
+.-top-0 {
+  top: -0px;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[90px\] {
+  top: 90px;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[25px\] {
+  left: 25px;
+}
+
+.-left-\[25px\] {
+  left: -25px;
+}
+
+.right-\[25px\] {
+  right: 25px;
+}
+
+.-right-\[25px\] {
+  right: -25px;
+}
+
+.-right-\[20px\] {
+  right: -20px;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.-right-6 {
+  right: -1.5rem;
+}
+
+.-right-\[10\] {
+  right: -10;
+}
+
+.-right-\[10px\] {
+  right: -10px;
+}
+
 .-z-40 {
   z-index: -40;
 }
