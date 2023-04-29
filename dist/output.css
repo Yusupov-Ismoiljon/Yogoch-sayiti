@@ -1353,6 +1353,14 @@ input:checked + .toggle-bg {
   margin-bottom: ;
 }
 
+.mb-\[26\] {
+  margin-bottom: 26;
+}
+
+.mb-\[26px\] {
+  margin-bottom: 26px;
+}
+
 .block {
   display: block;
 }
@@ -2814,6 +2822,14 @@ input:checked + .toggle-bg {
 
 .leading-\[44\.\] {
   line-height: 44.;
+}
+
+.leading-\[21p\] {
+  line-height: 21p;
+}
+
+.leading-\[21px\] {
+  line-height: 21px;
 }
 
 .text-\[\#2A1A01\] {
