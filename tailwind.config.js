@@ -41,7 +41,6 @@ module.exports = {
         th: '230px',
         do: '190px',
         img1: '82px',
-        nu: '5px',
       },
       colors: {
         address_black: '#222',  
@@ -60,11 +59,6 @@ module.exports = {
         cd: '#CDCDCD',
         green: '#31C76D',
         f8: '#F8F8F8',
-        b: '#000000',
-      },
-      boxShadow: {
-        show: '0-4-10-#000000-5%',
-        sh: 'box-shadow: 0px_0px_15px_0px #00000014',
       },
     }
   },
