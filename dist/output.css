@@ -2869,6 +2869,10 @@ input:checked + .toggle-bg {
   line-height: 66px;
 }
 
+.leading-\[1px\] {
+  line-height: 1px;
+}
+
 .text-\[\#2A1A01\] {
   --tw-text-opacity: 1;
   color: rgb(42 26 1 / var(--tw-text-opacity));
