@@ -38,6 +38,7 @@ module.exports = {
         mm: '315px',
         ink_1: '255px',
         link: '250px',
+        link_max_w: '240px',
         th: '230px',
         do: '190px',
         img1: '82px',
