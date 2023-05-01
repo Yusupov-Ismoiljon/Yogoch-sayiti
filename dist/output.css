@@ -1036,8 +1036,16 @@ input:checked + .toggle-bg {
   left: 30px;
 }
 
+.-left-\[25px\] {
+  left: -25px;
+}
+
 .-right-7 {
   right: -1.75rem;
+}
+
+.-right-\[10px\] {
+  right: -10px;
 }
 
 .-right-\[610\.5px\] {
@@ -1100,60 +1108,8 @@ input:checked + .toggle-bg {
   top: 50px;
 }
 
-.-top-0 {
-  top: -0px;
-}
-
-.top-\[\] {
-  top: ;
-}
-
 .top-\[90px\] {
   top: 90px;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[25px\] {
-  left: 25px;
-}
-
-.-left-\[25px\] {
-  left: -25px;
-}
-
-.right-\[25px\] {
-  right: 25px;
-}
-
-.-right-\[25px\] {
-  right: -25px;
-}
-
-.-right-\[20px\] {
-  right: -20px;
-}
-
-.right-\[\] {
-  right: ;
-}
-
-.right-6 {
-  right: 1.5rem;
-}
-
-.-right-6 {
-  right: -1.5rem;
-}
-
-.-right-\[10\] {
-  right: -10;
-}
-
-.-right-\[10px\] {
-  right: -10px;
 }
 
 .-z-40 {
@@ -1297,6 +1253,10 @@ input:checked + .toggle-bg {
   margin-bottom: 70px;
 }
 
+.mb-\[72px\] {
+  margin-bottom: 72px;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -1399,30 +1359,6 @@ input:checked + .toggle-bg {
 
 .mt-9 {
   margin-top: 2.25rem;
-}
-
-.mb-\[\] {
-  margin-bottom: ;
-}
-
-.mb-\[71px\] {
-  margin-bottom: 71px;
-}
-
-.mb-\[y72\] {
-  margin-bottom: y72;
-}
-
-.mb-\[72\] {
-  margin-bottom: 72;
-}
-
-.mb-\[72px\] {
-  margin-bottom: 72px;
-}
-
-.mr-\[\] {
-  margin-right: ;
 }
 
 .block {
@@ -1717,18 +1653,6 @@ input:checked + .toggle-bg {
   width: 230px;
 }
 
-.w-\[124px\] {
-  width: 124px;
-}
-
-.w-\[98px\] {
-  width: 98px;
-}
-
-.w-\[99px\] {
-  width: 99px;
-}
-
 .max-w-aksiya {
   max-width: 345px;
 }
@@ -1849,10 +1773,6 @@ input:checked + .toggle-bg {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -2009,11 +1929,6 @@ input:checked + .toggle-bg {
 
 .border-2 {
   border-width: 2px;
-}
-
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
 }
 
 .border-b {
@@ -2311,6 +2226,16 @@ input:checked + .toggle-bg {
   padding-right: 52px;
 }
 
+.px-\[59px\] {
+  padding-left: 59px;
+  padding-right: 59px;
+}
+
+.px-\[71px\] {
+  padding-left: 71px;
+  padding-right: 71px;
+}
+
 .px-\[83px\] {
   padding-left: 83px;
   padding-right: 83px;
@@ -2396,41 +2321,6 @@ input:checked + .toggle-bg {
   padding-bottom: 56px;
 }
 
-.py-\[25\] {
-  padding-top: 25;
-  padding-bottom: 25;
-}
-
-.py-\[25px\] {
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
-.px-\[71px\] {
-  padding-left: 71px;
-  padding-right: 71px;
-}
-
-.py-\[2px\] {
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-.py-\[22xpx\] {
-  padding-top: 22xpx;
-  padding-bottom: 22xpx;
-}
-
-.px-\[59px\] {
-  padding-left: 59px;
-  padding-right: 59px;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -2505,6 +2395,10 @@ input:checked + .toggle-bg {
 
 .pb-\[55px\] {
   padding-bottom: 55px;
+}
+
+.pb-\[60px\] {
+  padding-bottom: 60px;
 }
 
 .pb-\[66px\] {
@@ -2623,20 +2517,12 @@ input:checked + .toggle-bg {
   padding-top: 50px;
 }
 
-.pt-\[70px\] {
-  padding-top: 70px;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[60px\] {
-  padding-bottom: 60px;
-}
-
 .pt-\[60px\] {
   padding-top: 60px;
+}
+
+.pt-\[70px\] {
+  padding-top: 70px;
 }
 
 .text-center {
@@ -2887,6 +2773,10 @@ input:checked + .toggle-bg {
   line-height: 23.4px;
 }
 
+.leading-\[24px\] {
+  line-height: 24px;
+}
+
 .leading-\[26px\] {
   line-height: 26px;
 }
@@ -2945,14 +2835,6 @@ input:checked + .toggle-bg {
 
 .leading-\[66px\] {
   line-height: 66px;
-}
-
-.leading-\[24px\] {
-  line-height: 24px;
-}
-
-.leading-\[\] {
-  line-height: ;
 }
 
 .text-\[\#2A1A01\] {
@@ -3028,14 +2910,6 @@ input:checked + .toggle-bg {
 .text-yellow {
   --tw-text-opacity: 1;
   color: rgb(255 155 4 / var(--tw-text-opacity));
-}
-
-.text-\[13\] {
-  color: 13;
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -3290,10 +3164,6 @@ input:checked + .toggle-bg {
 }
 
 @media (min-width: 768px) {
-  .md\:grid {
-    display: grid;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -3314,10 +3184,6 @@ input:checked + .toggle-bg {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
